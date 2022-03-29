@@ -10,23 +10,23 @@ LEVEL UP PYTHON
 
 ### github에서
 
-![1](\READ\1.png)
+![1](\1.png)
 
 1. github에 repository에 들어가면 compare & pull request 클릭
 
-   ![2](\READ\2.png)
+   ![2](\2.png)
 
 2. Create pull request 클릭
 
-   ![3](\READ\3.png)
+   ![3](\3.png)
 
 3. Merge pull request 클릭
 
-   ![4](\READ\4.png)
+   ![4](\4.png)
 
 4. Confirm merge를 클릭
 
-   ![5](\READ\5.png)
+   ![5](\5.png)
 
 5. 보라색으로 바뀌는것 확인
 
