@@ -34,9 +34,6 @@
 
 
 
-from itertools import count
-
-
 N = int(input())
 lst = []
 for _ in range(N):
