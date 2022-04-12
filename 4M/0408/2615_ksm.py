@@ -12,23 +12,17 @@ def check(i,j):
                         cnt +=1
                     if cnt != f:
                         break
+
                 if cnt == 4:
-                    if i - d1 < 0 or i - d1 > 18  or j - d2 < 0 or  j - d2 > 18  or arr[i - d1][j - d2] != k:
-                        if (0 <= i + d1 * 5 < 19 and 0 <= j + d2 * 5 < 19 and arr[i + d1 * 5][j + d2 * 5] != k) or (i + d1 * 5 < 0  or i + d1 * 5 > 18 or j + d2 * 5 < 0 or j + d2 * 5 > 18 ) :
-                            if k == 1:
-                                if d1 == 1 and d2 == -1:
-                                    print(1)
-                                    print(i + 5, j - 3)
-                                else:
-                                    print(1)
-                                    print(i + 1, j + 1)
+                    ni,nj,ki,kj = i-d1,j-d2,i + d1 * 5,j + d2 * 5
+                    if ni < 0 or ni > 18  or nj < 0 or  nj > 18  or arr[ni][nj] != k:
+                        if (0 <= ki < 19 and 0 <= kj < 19 and arr[ki][kj] != k) or (ki < 0  or ki > 18 or kj < 0 or kj > 18 ) :
+                            if d1 == 1 and d2 == -1:
+                                print(k)
+                                print(i + 5, j - 3)
                             else:
-                                if d1 == 1 and d2 == -1:
-                                    print(2)
-                                    print(i + 5, j - 3)
-                                else:
-                                    print(2)
-                                    print(i + 1, j + 1)
+                                print(k)
+                                print(i + 1, j + 1)
                             a = 1
                             return
 
@@ -41,5 +35,6 @@ for i in range(19):
             break
     if a == 1 :
         break
+
 if a == 0:
     print(0)
