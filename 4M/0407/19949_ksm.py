@@ -87,6 +87,7 @@ for i1 in range(1,6):
                                             c[9] = 1
                                         else:
                                             c[9] = 0
+                                            
                                         if sum(c) >= 5:
                                             result +=1
 
