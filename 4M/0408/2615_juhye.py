@@ -1,5 +1,3 @@
-
-
 def find():
     ans = 0
     for i in range(19):
