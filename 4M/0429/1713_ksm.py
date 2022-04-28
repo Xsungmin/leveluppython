@@ -45,7 +45,9 @@ for i in vote:
         his +=1
 
 
+
 votep = list(set(votep))
+votep.sort()
 if votep[0] == 0:
     votep.pop(0)
 print(*votep)
