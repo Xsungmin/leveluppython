@@ -37,11 +37,11 @@ for k in range(N):
 
     
     
-arr = [ [0]*x for _ in range(y)]    
+arr = [ [0]*(x+1) for _ in range(y+1)]    
  
-for k in range(1,N+1):     
-        for j in range(lst[k][0],lst[k][0]+lst[k][2]):
-            arr[j][lst[k][1]:lst[k][1]+lst[k][3]] = [k]*lst[k][3]
+for k in range(N):     
+        for nx in range(lst[k][0],lst[k][0]+lst[k][2]):
+            arr[nx][lst[k][1]:lst[k][1]+lst[k][3]] = [k+1]*lst[k][3]
 
  
 result = [0]*N
