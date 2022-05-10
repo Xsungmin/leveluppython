@@ -66,7 +66,7 @@ while True:
     # for i in range(N):
     #     for j in range(M):
     #         if iceberg[i][j] != 0 and visited[i][j] == False:
-    ice_cnt(si, sj)
+    ice_cnt(0, 0)
     cnt += 1
     if cnt >= 2:
         print(time)
