@@ -5,8 +5,6 @@ truckList = list(map(int,input().split()))
 truckNum = [0]*n
 
 bridge = deque([0]*w)
-
-
 cnt = 0
 while truckList:
     cnt +=1
