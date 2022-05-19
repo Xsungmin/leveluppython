@@ -1,4 +1,4 @@
-########################################### 브레이크 조건함수 83,89
+########################################### 브레이크 조건
 def check(i):
     global l1,l2,r1,r2
     if string[i] == '(':
@@ -96,5 +96,3 @@ while len(newstring) > 1 :
         if type(newstring[0]) != int :
             newstring = [0]
             break    
-
-print(*newstring)
