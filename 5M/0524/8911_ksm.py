@@ -25,7 +25,7 @@ def changeR(lst):
         lst[0] = 1
     else:
         lst[1] = 0
-        lst[1] = -1
+        lst[0] = -1
     return lst
 
 def jul(a) :
